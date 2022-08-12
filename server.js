@@ -16,6 +16,7 @@ const itemSchema = {
 };
 
 //data model
+const Item = mongoose.model("Item", itemSchema);
 
 //read route
 
