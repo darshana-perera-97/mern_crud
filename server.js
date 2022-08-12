@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const port = 3001;
 
 //cpnnect to mongodb
+mongoose.connect('mongodb+srv://darshana:darshana@cluster0.uoooe.mongodb.net/items?retryWrites=true&w=majority')
 
 //data schema
 
